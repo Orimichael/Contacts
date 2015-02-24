@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		AEDAEE711A97A52B00DFDBA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDAEE701A97A52B00DFDBA3 /* AppDelegate.swift */; };
-		AEDAEE731A97A52B00DFDBA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDAEE721A97A52B00DFDBA3 /* ViewController.swift */; };
 		AEDAEE761A97A52B00DFDBA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEDAEE741A97A52B00DFDBA3 /* Main.storyboard */; };
 		AEDAEE781A97A52B00DFDBA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDAEE771A97A52B00DFDBA3 /* Images.xcassets */; };
 		AEDAEE7B1A97A52B00DFDBA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEDAEE791A97A52B00DFDBA3 /* LaunchScreen.xib */; };
 		AEDAEE871A97A52B00DFDBA3 /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDAEE861A97A52B00DFDBA3 /* ContactsTests.swift */; };
+		AEDAEE911A97A5C500DFDBA3 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDAEE901A97A5C500DFDBA3 /* ContactsTableViewController.swift */; };
+		AEDAEE931A97A92000DFDBA3 /* ContactClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDAEE921A97A92000DFDBA3 /* ContactClass.swift */; };
+		AEDAEE971A97D71700DFDBA3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDAEE961A97D71700DFDBA3 /* DetailViewController.swift */; };
+		AEDAEE991A982BFB00DFDBA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDAEE981A982BFB00DFDBA3 /* ViewController.swift */; };
+		AEEFFC251A9A2F0A00B92BC8 /* Enya.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEEFFC241A9A2F0A00B92BC8 /* Enya.jpeg */; };
+		AEEFFC271A9A33C600B92BC8 /* Jonathan.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AEEFFC261A9A33C600B92BC8 /* Jonathan.JPG */; };
+		AEEFFC291A9A34D100B92BC8 /* Nir.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AEEFFC281A9A34D100B92BC8 /* Nir.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +35,19 @@
 		AEDAEE6B1A97A52B00DFDBA3 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEDAEE6F1A97A52B00DFDBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEDAEE701A97A52B00DFDBA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AEDAEE721A97A52B00DFDBA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AEDAEE751A97A52B00DFDBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEDAEE771A97A52B00DFDBA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AEDAEE7A1A97A52B00DFDBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AEDAEE801A97A52B00DFDBA3 /* ContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEDAEE851A97A52B00DFDBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEDAEE861A97A52B00DFDBA3 /* ContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTests.swift; sourceTree = "<group>"; };
+		AEDAEE901A97A5C500DFDBA3 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		AEDAEE921A97A92000DFDBA3 /* ContactClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactClass.swift; sourceTree = "<group>"; };
+		AEDAEE961A97D71700DFDBA3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AEDAEE981A982BFB00DFDBA3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEEFFC241A9A2F0A00B92BC8 /* Enya.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Enya.jpeg; path = ../../../../Enya.jpeg; sourceTree = "<group>"; };
+		AEEFFC261A9A33C600B92BC8 /* Jonathan.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Jonathan.JPG; path = "../../../../Jonathan Photos/יונתן/Jonathan.JPG"; sourceTree = "<group>"; };
+		AEEFFC281A9A34D100B92BC8 /* Nir.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Nir.JPG; path = "../../../../Jonathan Photos/יונתן/Nir.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +90,14 @@
 			isa = PBXGroup;
 			children = (
 				AEDAEE701A97A52B00DFDBA3 /* AppDelegate.swift */,
-				AEDAEE721A97A52B00DFDBA3 /* ViewController.swift */,
+				AEEFFC241A9A2F0A00B92BC8 /* Enya.jpeg */,
 				AEDAEE741A97A52B00DFDBA3 /* Main.storyboard */,
+				AEDAEE981A982BFB00DFDBA3 /* ViewController.swift */,
+				AEEFFC281A9A34D100B92BC8 /* Nir.JPG */,
+				AEEFFC261A9A33C600B92BC8 /* Jonathan.JPG */,
+				AEDAEE961A97D71700DFDBA3 /* DetailViewController.swift */,
+				AEDAEE921A97A92000DFDBA3 /* ContactClass.swift */,
+				AEDAEE901A97A5C500DFDBA3 /* ContactsTableViewController.swift */,
 				AEDAEE771A97A52B00DFDBA3 /* Images.xcassets */,
 				AEDAEE791A97A52B00DFDBA3 /* LaunchScreen.xib */,
 				AEDAEE6E1A97A52B00DFDBA3 /* Supporting Files */,
@@ -194,7 +212,10 @@
 			files = (
 				AEDAEE761A97A52B00DFDBA3 /* Main.storyboard in Resources */,
 				AEDAEE7B1A97A52B00DFDBA3 /* LaunchScreen.xib in Resources */,
+				AEEFFC251A9A2F0A00B92BC8 /* Enya.jpeg in Resources */,
 				AEDAEE781A97A52B00DFDBA3 /* Images.xcassets in Resources */,
+				AEEFFC271A9A33C600B92BC8 /* Jonathan.JPG in Resources */,
+				AEEFFC291A9A34D100B92BC8 /* Nir.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDAEE731A97A52B00DFDBA3 /* ViewController.swift in Sources */,
+				AEDAEE991A982BFB00DFDBA3 /* ViewController.swift in Sources */,
 				AEDAEE711A97A52B00DFDBA3 /* AppDelegate.swift in Sources */,
+				AEDAEE911A97A5C500DFDBA3 /* ContactsTableViewController.swift in Sources */,
+				AEDAEE931A97A92000DFDBA3 /* ContactClass.swift in Sources */,
+				AEDAEE971A97D71700DFDBA3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +431,7 @@
 				AEDAEE8C1A97A52B00DFDBA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEDAEE8D1A97A52B00DFDBA3 /* Build configuration list for PBXNativeTarget "ContactsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +440,7 @@
 				AEDAEE8F1A97A52B00DFDBA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
